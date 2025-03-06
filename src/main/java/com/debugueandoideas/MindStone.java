@@ -1,5 +1,8 @@
 package com.debugueandoideas;
 
+import lombok.ToString;
+
+@ToString
 public class MindStone extends Stone {
 
 
@@ -17,7 +20,7 @@ public class MindStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("");
+        System.out.println("Mind Control in stone : " + this.toString() );
     }
 
 }

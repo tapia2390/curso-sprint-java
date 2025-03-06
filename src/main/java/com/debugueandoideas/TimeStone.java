@@ -1,5 +1,9 @@
 package com.debugueandoideas;
 
+
+import lombok.ToString;
+
+@ToString
 public class TimeStone  extends Stone {
 
 
@@ -18,7 +22,7 @@ public class TimeStone  extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("");
+        System.out.println("Control time: " + this.toString() );
     }
 
 }

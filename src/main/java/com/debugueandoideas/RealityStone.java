@@ -1,5 +1,8 @@
 package com.debugueandoideas;
 
+import lombok.ToString;
+
+@ToString
 public class RealityStone extends Stone {
 
 
@@ -17,7 +20,8 @@ public class RealityStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("");
+
+        System.out.println("Alter reality: " + this.toString() );
     }
 
 }

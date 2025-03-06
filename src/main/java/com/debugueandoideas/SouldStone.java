@@ -1,5 +1,9 @@
 package com.debugueandoideas;
 
+
+import lombok.ToString;
+
+@ToString
 public class SouldStone extends Stone {
 
 
@@ -17,7 +21,7 @@ public class SouldStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("");
+        System.out.println("Total Control: " + this.toString() );
     }
 
 }

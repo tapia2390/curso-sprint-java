@@ -1,5 +1,8 @@
 package com.debugueandoideas;
 
+import lombok.ToString;
+
+@ToString
 public class SpaceStone extends  Stone{
 
     private static final String COLOR = "Blue";
@@ -14,6 +17,6 @@ public class SpaceStone extends  Stone{
 
     @Override
     public void usePower() {
-        System.out.println("");
+        System.out.println("Manipule Space: " + this.toString() );
     }
 }
