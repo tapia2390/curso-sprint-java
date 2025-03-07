@@ -21,7 +21,7 @@ public class SouldStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("Total Control: " + this.toString() );
+        System.out.println("Total Control: " + super.toString() );
     }
 
 }

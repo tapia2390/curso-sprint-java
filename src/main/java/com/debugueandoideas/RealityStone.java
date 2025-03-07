@@ -21,7 +21,7 @@ public class RealityStone extends Stone {
     @Override
     public void usePower() {
 
-        System.out.println("Alter reality: " + this.toString() );
+        System.out.println("Alter reality: " + super.toString() );
     }
 
 }

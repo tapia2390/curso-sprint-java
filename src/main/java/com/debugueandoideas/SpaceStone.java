@@ -17,6 +17,6 @@ public class SpaceStone extends  Stone{
 
     @Override
     public void usePower() {
-        System.out.println("Manipule Space: " + this.toString() );
+        System.out.println("Manipule Space: " + super.toString() );
     }
 }

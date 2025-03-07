@@ -20,7 +20,7 @@ public class PowerStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("Incrase power and energy: " + this.toString() );
+        System.out.println("Incrase power and energy: " + super.toString() );
     }
 
 

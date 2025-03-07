@@ -20,7 +20,7 @@ public class MindStone extends Stone {
 
     @Override
     public void usePower() {
-        System.out.println("Mind Control in stone : " + this.toString() );
+        System.out.println("Mind Control in stone : " + super.toString() );
     }
 
 }
