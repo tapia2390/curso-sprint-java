@@ -1,4 +1,4 @@
-package com.debugueandoideas;
+package com.debugueandoideas.model;
 
 import lombok.ToString;
 
