@@ -7,7 +7,7 @@ import com.debugueandoideas.model.RealityStone;
 public class Main {
     public static void main(String[] args) {
 
-        final var min = new MindStone();
+       /* final var min = new MindStone();
         final var power = new PowerStone();
         final var reality = new RealityStone();
 
@@ -17,7 +17,7 @@ public class Main {
         power.usePower();
         System.out.println("---");
         reality.usePower();
-        System.out.println("---");
+        System.out.println("---");*/
 
     }
 }
